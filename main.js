@@ -85,11 +85,11 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="section_contact_container">
              <h2>Contactanos</h2>
-             <a href="https://wa.me/message/PG2XXY5JXDTVL1" class="contact_whatshap">
+             <a href="https://wa.me/message/PG2XXY5JXDTVL1" target="_blank" class="contact_whatshap">
                 <i class="fa-brands fa-whatsapp"></i>
                 <span>Envianos un mensaje</span>
              </a>
-             <a href="https://www.youtube.com/@MRG0130" class="contact_youtube">
+             <a href="https://www.youtube.com/@MRG0130" target="_blank" class="contact_youtube">
                 <i class="fa-brands fa-youtube"></i>
                 <span>Mira nuestro contenido</span>
              </a>
