@@ -24,7 +24,7 @@ jobs:
       - name: Configure vite
         run: |
           echo 'export default {
-            base: "https://${{github.actor}}.github.io/${{github.event.repository.name}}/"
+            base: "https://${{github.actor}}.github.io/${{github.event.repository.name}}"
           }' > vite.config.js
       - name: Build
         run: npm run build
