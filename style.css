@@ -77,6 +77,11 @@ header nav .header_menu {
     list-style: none;
     gap: 48px;
     align-items: center;
+    padding: 15px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
 }
 
 header nav .header_menu li {

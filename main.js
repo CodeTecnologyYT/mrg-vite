@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
                 <li>Inicio</li>
                 <li>Acerca de nosotros</li>
                 <li>Servicios</li>
-                <li class="button button_primary">Contactanos</li>
+                <li ><a class="button button_primary" target="_blank" href="https://wa.me/message/PG2XXY5JXDTVL1">Contactanos</a></li>
             </ul>
         </nav>
     </header>
