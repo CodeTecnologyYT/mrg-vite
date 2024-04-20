@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
                 años de experiencia en soluciones confiables y eficientes 
                 para tu equipo. Confía en nosotros para mantener tus máquinas en perfecto estado. 
                 ¡Contáctanos hoy mismo!</p>
-            <button class="button button_primary">Ver servicios</button>
+            <a href="#services" class="button button_primary">Ver servicios</a>
         </div>
     </main>
     <section id="our" class="section_aboutus">
