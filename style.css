@@ -12,13 +12,14 @@
     --max-width-content: 1512px;
 }
 
-body {
+body ,a {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: var(--font-size-body);
+    color: black;
 }
 
 button {
@@ -43,11 +44,16 @@ button {
 .button {
     padding: 13px 13px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .button_primary {
     color: var(--color-secondary);
     background: var(--color-primary);
+}
+
+.button:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
 
 /*Header*/
@@ -84,14 +90,17 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav .header_menu li {
+header nav ul li:not(:last-of-type) a{
+    color: var(--color-primary);
+}
+
+header nav .header_menu a {
     box-sizing: border-box;
     border-bottom: 1px solid transparent;
 }
 
-header nav .header_menu li:hover {
+header nav .header_menu li:not(:last-of-type) a:hover{
     color: var(--color-primary-hover);
-    cursor: pointer;
     border-bottom: 1px solid var(--color-primary-hover);
 }
 

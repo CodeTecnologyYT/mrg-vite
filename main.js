@@ -8,14 +8,14 @@ document.querySelector('#app').innerHTML = `
         <nav>
             <div class="header_logo">MRG</div>
             <ul class="header_menu">
-                <li>Inicio</li>
-                <li>Acerca de nosotros</li>
-                <li>Servicios</li>
-                <li ><a class="button button_primary" target="_blank" href="https://wa.me/message/PG2XXY5JXDTVL1">Contactanos</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#our">Acerca de nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li class="contacto"><a class="button button_primary" target="_blank" href="https://wa.me/message/PG2XXY5JXDTVL1">Contactanos</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="home">
         <div class="main_container_image">
             <img src="${contentMainUrl}">
         </div>
@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML = `
             <button class="button button_primary">Ver servicios</button>
         </div>
     </main>
-    <section class="section_aboutus">
+    <section id="our" class="section_aboutus">
         <div class="section_aboutus_content">
            <h2>ACERCA DE NOSOTROS</h2>
            <p>Bienvenidos a nuestro servicio técnico especializado en máquinas de coser y 
@@ -45,7 +45,7 @@ document.querySelector('#app').innerHTML = `
             <img src="${contentAboutUsUrl}" alt="">
         </div>
     </section>
-    <section class="section_services">
+    <section id="services" class="section_services">
         <div class="section_services_container">
             <h2>SERVICIOS</h2>
             <div class="section_services_list">
