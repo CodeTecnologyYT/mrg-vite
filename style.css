@@ -263,6 +263,20 @@ main .main_content p {
     font-weight: 300;
 }
 
+.section_contact a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.section_contact .contact_whatshap:hover{
+    color: #2dd24b;
+}
+
+.section_contact .contact_youtube:hover{
+    color: #f35a5a;
+}
+
 /*Footer*/
 footer {
     background: var(--color-primary);
